@@ -13,9 +13,9 @@ debian(){
     wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_7.0-2+debian12_all.deb  
     dpkg -i zabbix-release_7.0-2+debian12_all.deb 
 }
-ubuntu(){ #versão 22.04
-    wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu22.04_all.deb
-    dpkg -i zabbix-release_7.0-2+ubuntu22.04_all.deb
+ubuntu(){ #versão 24.04
+    wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu24.04_all.deb
+    dpkg -i zabbix-release_7.0-2+ubuntu24.04_all.deb
 }
 #vai até aqui
 final_instalacao(){
